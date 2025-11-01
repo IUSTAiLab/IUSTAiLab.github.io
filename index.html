@@ -1,24 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A simple GitHub Pages website">
-    <title>Narges Mokhtari - GitHub Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 50px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Intelligent Systems and AI Laboratory - IUST">
+  <title>IUST AI Lab</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #0056b3, #007bff);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h2 {
+      color: #0056b3;
+      border-bottom: 2px solid #0056b3;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      background: #222;
+      color: white;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+    .members {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .member {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    .member h3 {
+      margin-bottom: 5px;
+      color: #333;
+    }
+    .research {
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Welcome to My GitHub Page</h1>
-    <p>This is a simple webpage hosted with GitHub Pages.</p>
-    
-    <h2>About Me</h2>
-    <p><strong>Narges Mokhtari</strong> (she/her)</p>
-    <p>Detail-oriented and data analysis specialist. I enjoy generating and developing new ideas and trying to implement them.</p>
+  <header>
+    <h1>Intelligent Systems and AI Laboratory</h1>
+    <p>Department of Electrical Engineering, Iran University of Science and Technology (IUST)</p>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      At the <strong>IUST AI Lab</strong>, we explore the intersection of artificial intelligence, neuroscience, and signal processing.
+      Our mission is to develop intelligent systems that can understand, learn, and interact with the world through advanced algorithms
+      and computational models inspired by the human brain.
+    </p>
+  </section>
+
+  <section id="research">
+    <h2>Research Areas</h2>
+    <div class="research">
+      <ul>
+        <li>Brain–Computer Interfaces (BCI) and ECoG decoding</li>
+        <li>Deep learning for biomedical signal processing</li>
+        <li>Generative and state-space models for sequential data</li>
+        <li>Computational neuroscience and cognitive modeling</li>
+        <li>AI safety and interpretability</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="members">
+    <h2>Lab Members</h2>
+    <div class="members">
+      <div class="member">
+        <h3>Dr. [Supervisor Name]</h3>
+        <p>Principal Investigator</p>
+      </div>
+      <div class="member">
+        <h3>Narges Mokhtari</h3>
+        <p>Graduate Researcher</p>
+      </div>
+      <div class="member">
+        <h3>[Student Name]</h3>
+        <p>Undergraduate Research Assistant</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications">
+    <h2>Recent Publications</h2>
+    <p>
+      Coming soon — we are preparing summaries of our latest work on temporal-spatial-frequency feature learning,
+      ECoG decoding, and structured state-space modeling.
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 IUST AI Lab — All Rights Reserved</p>
+  </footer>
 </body>
 </html>
